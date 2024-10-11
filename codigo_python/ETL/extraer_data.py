@@ -7,15 +7,14 @@ class Extraer:
     def extract_data(self):
         try:
             data = {
-                        'film': pd.read_excel(self.file_path, sheet_name = 'film'),
-                        'inventory': pd.read_excel(self.file_path, sheet_name = 'inventory'),
-                        'rental': pd.read_excel(self.file_path, sheet_name = 'rental'),
-                        'customer': pd.read_excel(self.file_path, sheet_name='customer'),
-                        'store': pd.read_excel(self.file_path, sheet_name = 'rental')
-                    }
+                'df_film': pd.read_excel(self.file_path, sheet_name = 'film'),
+                'df_inventory': pd.read_excel(self.file_path, sheet_name = 'inventory'),
+                'df_rental': pd.read_excel(self.file_path, sheet_name = 'rental'),
+                'df_customer': pd.read_excel(self.file_path, sheet_name='customer'),
+                'df_store': pd.read_excel(self.file_path, sheet_name = 'store')
+                }
             return data
             
         except Exception as ex:
             print(f'Error durante la extraccion: {ex}')
             return None
-        

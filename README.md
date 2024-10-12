@@ -4,7 +4,7 @@
 Para clonar el repositorio ejecutamos los siguiente comandos en Git bash
 ```
 $ git init
-$ [git clone https://github.com/YOUR-USERNAME/films_project.git]
+$ git clone https://github.com/YOUR-USERNAME/films_project.git
 ```
 
 ## Crear entorno virtual
@@ -22,7 +22,7 @@ luego para activar el entorno ejecutamos
 ```
 ## Instalación librerias requeridas
 
-Para instalar todas las librerias basta con ejecutar el siguiente codigo en la terminal, el cual instala nuestro archivo [requirements.txt](https://github.com/Juanma1023/pet_adoption_api/blob/main/requirements.txt)
+Para instalar todas las librerias basta con ejecutar el siguiente codigo en la terminal, el cual instala nuestro archivo [requirements.txt](https://github.com/Juanma1023/films_project/blob/main/requirements.txt)
 
 ```
 pip install -r requirements.txt

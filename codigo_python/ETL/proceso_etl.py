@@ -39,7 +39,6 @@ class ETLProcess:
         # Guardar el diccionario transformado en un archivo Excel
         return Load(diccionario, 'films_project\Data\Films_2_limpia.xlsx').guardar_diccionario_en_excel()
     
-
     def limpiar_espacios_claves(self, diccionario_principal, nombre_lista):
         """
         Elimina los espacios al inicio y al final de las claves de los diccionarios en una lista.

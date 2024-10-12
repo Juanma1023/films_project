@@ -4,7 +4,7 @@
 Para clonar el repositorio ejecutamos los siguiente comandos en Git bash
 ```
 $ git init
-$ git clone https://github.com/YOUR-USERNAME/pet_adoption_api.git
+$ [git clone https://github.com/YOUR-USERNAME/films_project.git]
 ```
 
 ## Crear entorno virtual

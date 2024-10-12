@@ -26,3 +26,8 @@ Para instalar todas las librerias basta con ejecutar el siguiente codigo en la t
 
 ```
 pip install -r requirements.txt
+```
+## Ejecución del programa.
+
+Basta ejecutar el archivo main.py para limpiar nuestra base de datos anexada, la cual generara una nueva base de datos limpia
+```

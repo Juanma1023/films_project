@@ -29,5 +29,4 @@ pip install -r requirements.txt
 ```
 ## Ejecución del programa.
 
-Basta ejecutar el archivo main.py para limpiar nuestra base de datos anexada, la cual generara una nueva base de datos limpia
-```
+Basta ejecutar el archivo main.py para limpiar nuestra base de datos anexada, la cual generara una nueva base de datos limpia.
